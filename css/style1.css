@@ -1,0 +1,281 @@
+body {
+    background-color: white;
+    background-size: 100%;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#glav {
+    background: url(../image/sodaluv-2023.jpg);
+    width: 1400px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 0.1fr 0.1fr 0.3fr;
+    grid-template-columns: 128px ;
+    margin-bottom: 50px;
+}
+
+#glav h1 {
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    place-self: center;
+    grid-column-start: 5;
+    grid-row-start: 3;
+    font-size: 76px;
+    font-family: 'Golos Text', sans-serif;
+}
+
+#glav p {
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    place-self: center;
+    grid-column-start: 5;
+    grid-row-start: 3;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#glav h2 {
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    place-self: center end;
+    grid-column-start: 5;
+    grid-row-start: 1;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#glav h3 {
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    place-self: center;
+    grid-column-start: 6;
+    grid-row-start: 1;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#lead {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 0.5fr 0.2fr 0.1fr;
+    grid-template-columns: 150px 0.2fr 1fr 0.2fr 150px;
+    margin-bottom: 30px;
+}
+
+#lead h1 {
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    place-self: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    font-size: 34px;
+    font-family: 'Golos Text', sans-serif;
+    margin-bottom: 70px;
+    margin: 10px 10px;
+}
+
+#lead h2 {
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    font-size: 20px;
+    font-family: 'Golos Text', sans-serif;
+    margin-bottom: 40px;
+}
+
+#lead p {
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    place-self: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#prend {
+    background: url(../image/sodaluv-live.jpg);
+    width: 1400px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 0.1fr 0.3fr 0.3fr;
+    grid-template-columns: 128px ;
+}
+
+#end {
+    background-color: #222222;
+    width: 1400px;
+    height: 800px;
+    display: grid;
+    grid-template-rows: 0.2fr;
+    grid-template-columns: 128px 0.5fr 0.2fr 0.5fr 128px ;
+    column-gap: 10px;
+}
+
+#end h1 {
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    place-self: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    font-size: 34px;
+    font-family: 'Golos Text', sans-serif;
+}
+
+#end p {
+    color: rgb(255, 255, 255);
+    margin: 0%;
+    place-self: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.video1 {
+    margin: 0%;
+    place-self: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    border-radius: 45px;
+}
+
+.video2 {
+    margin: 0%;
+    place-self: center;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    border-radius: 45px;
+}
+
+#concert {
+    background-color: white ;
+    width: 1400px;
+    height: 5200px;
+    display: grid;
+    place-self: center;
+    grid-template-rows: 0.1fr;
+    grid-template-columns: 150px 0.2fr 1fr 0.2fr 150px;
+}
+
+#concert {
+    margin: 0%;
+    place-self: center;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#concert h1 {
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    place-self: center;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    font-size: 34px;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.btn_item {
+    grid-column-start: 3;
+    place-self: center;
+    margin: 10px;
+    border-bottom: 1px solid #E8E6E6;
+    padding-bottom: 15px;
+    margin-top: 40px;
+    font-size: 20px;
+    width: 555px;
+    height: 125px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    margin: 20px 190px;
+	border: 2px solid black;
+	padding: 10px 10px;
+    place-self: center;
+	cursor: pointer;
+    width: 145px;
+    height: 21px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.btn {
+    place-self: center;
+    margin: 10px;
+}
+
+p{
+    place-self: center;
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+h1 {
+    font-size: 3rem;
+    }
+}
+
+.btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.button {
+    border-color: #000000;
+    border-radius: 0;
+    color: #8e44ad;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+}
+
+  .button:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #000000;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+  }
+
+  .button:hover {
+    color: #fff;
+  }
+  
+  .button:hover:after {
+    width: 110%;
+  }
